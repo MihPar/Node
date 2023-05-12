@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            body {
+                background-color: rgb(142 149 184);
+                display: flex;
+                position: absolute;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+            }
+            .error {
+                color: red;
+            }
+            .hidden {
+                display: none;
+            }
+        </style>
+        <title>LOGIN</title>
+        <script src="log-in.js" defer></script>
+    </head>
+    <body>
+        <input type="text" class="email" placeholder="email" />
+        <input type="password" class="password" placeholder="password" />
+        <div class="error hidden">Try to user another email</div>
+        <button class="btn">log-in</button>
+    </body>
+</html>

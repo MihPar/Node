@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  },
+  
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node.js tutorial packege",
+  "main": "index.js",
+  "scripts": {
+    "start": "node refs/index.js",
+    "dev": "nodemon refs/index.js"
+  },"devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "Mickhail Paramonov <9496260@gmail.com>",
+  "license": "ISC"
+}
