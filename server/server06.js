@@ -25,7 +25,7 @@ const server = http.createServer(async function(req, res) {
     switch(req.url){
         case "/home":
             try {
-                const data = await readFile('server/home1.html')
+                const data = await readFile('home.html')
                 res.write(data)
                 res.end()
             } catch(err) {
